@@ -13,15 +13,15 @@ print(f1(1, 2))
 
 # YOUR CODE HERE
 
-print(f2(1))                    # Should print 1
-print(f2(1, 3))                 # Should print 4
-print(f2(1, 4, -12))            # Should print -7
+print(f2(1))  # Should print 1
+print(f2(1, 3))  # Should print 4
+print(f2(1, 4, -12))  # Should print -7
 print(f2(7, 9, 1, 3, 4, 9, 0))  # Should print 33
 
 a = [7, 6, 5, 4]
 
 # What thing do you have to add to make this work?
-print(f2(a))    # Should print 22
+print(f2(a * 2))  # Should print 22
 
 # Write a function f3 that accepts either one or two arguments. If one argument,
 # it returns that value plus 1. If two arguments, it returns the sum of the
@@ -30,7 +30,7 @@ print(f2(a))    # Should print 22
 # YOUR CODE HERE
 
 print(f3(1, 2))  # Should print 3
-print(f3(8))     # Should print 9
+print(f3(8))  # Should print 9
 
 
 # Write a function f4 that accepts an arbitrary number of keyword arguments and
@@ -54,10 +54,7 @@ f4(a=12, b=30)
 # key: founded, value: "March 23, 1868"
 f4(city="Berkeley", population=121240, founded="March 23, 1868")
 
-d = {
-    "monster": "goblin",
-    "hp": 3
-}
+d = {"monster": "goblin", "hp": 3}
 
 # What thing do you have to add to make this work?
 f4(d)
