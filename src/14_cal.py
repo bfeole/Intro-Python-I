@@ -35,7 +35,6 @@ m = input("Input the Month: ")
 # date = datetime.now()
 # y = current_date.year
 # m = current_date.month
-
 # print(date.month)
 
 
@@ -52,9 +51,3 @@ elif(int(m) > 0 and 1000 <= int(y) <= 2019):
     print(calendar.month(int(y), int(m)))
 else:
     print("Please enter a valid Month (00) and Year(1000-2019)")
-
-    # print(calendar.month)
-
-    # print(current_date.year)
-
-    # print(calendar.month(y, m))
